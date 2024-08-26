@@ -1,0 +1,1 @@
+    cout << "File closed properly" << endl;

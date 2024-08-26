@@ -1,0 +1,2 @@
+delete[] r;
+    r=nullptr;
