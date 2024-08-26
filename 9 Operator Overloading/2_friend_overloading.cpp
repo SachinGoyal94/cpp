@@ -23,6 +23,7 @@ class Complex
         return img;
     }
 };
+
 Complex operator+(Complex c1,Complex c2)      //as we are declaring outside class so 2 inputs taken
 {
     Complex t;
@@ -30,6 +31,7 @@ Complex operator+(Complex c1,Complex c2)      //as we are declaring outside clas
     t.img=c1.img+c2.img;
     return t;
 }
+
 int main()
 {
     Complex c1(4,5),c2(4,8),c3;
