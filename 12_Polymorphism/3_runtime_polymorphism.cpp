@@ -11,10 +11,7 @@ for ex you have 2cars and everytime you start engine of any car you want to get 
 so making 2 apps for 2 cars is timewasting but using polymorphism you can create 1 app for as manys car your want 
 */
 
-#include<iostream>
-#include<cmath>
-#include<climits>
-#include<cstring>
+#include<bits/stdc++.h>
 using namespace std;
 
 class BasicCar
