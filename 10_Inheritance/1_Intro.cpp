@@ -1,5 +1,5 @@
 /* inheritance means inheriting something
-here from parent class datamembers and functions will be inherited automatically 
+here from parent class data members and functions will be inherited automatically 
 like here class child:public Parent     here every function under public of parent will be inherited in 
 child  */
 
