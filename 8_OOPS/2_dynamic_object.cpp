@@ -23,5 +23,6 @@ int main()
     p->lenght=10;      //p->lenght means lenght in p is assinged 10
     p->breadth=5;
     cout<<p->area();
+    delete p;//in dynamic memory have to call the destructor unlike in stack where it's automatic call for destructor
     return 0;
 }

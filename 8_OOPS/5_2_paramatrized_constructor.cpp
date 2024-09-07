@@ -40,5 +40,10 @@ class Rectangle
 int main()
 {
     Rectangle r(10,5);
-    cout<<r.area();
+    cout<<r.area(); 
+
+    //dynamic 
+    Rectangle *p=new Rectangle(10,10);
+    cout<<endl<<p->area();
+    delete p;
 }

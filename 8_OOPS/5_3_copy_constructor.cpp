@@ -13,9 +13,11 @@ class Rectangle
         setlenght(l);
         setbreadth(b);
     }
-    Rectangle(Rectangle &r)   //copy constructor
-    {
-        lenght=r.lenght;
+    Rectangle(const Rectangle &r)   //copy constructor
+    {                               //const means i am making orginal obeject constant
+                                    //here so this copy constructor will not change it 
+                                    //Rectangle(Rectangle &r works in the same way)
+        this->lenght=r.lenght;  // both this->length and length=r.length are same     
         breadth=r.breadth;
     }
     void setlenght(int l)  
@@ -51,4 +53,6 @@ int main()
     Rectangle r(10,5);
     Rectangle r2(r);
     cout<<r2.area();
+    Rectangle r3=r;//same as Rectangle r3(&r)
+    cout<<endl<<r3.area();
 }
