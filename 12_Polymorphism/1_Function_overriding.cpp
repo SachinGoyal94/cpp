@@ -1,3 +1,10 @@
+/*
+Polymorphism we redifne the functions according to our need 
+Inheritance  we inherit functions from parent class into derived without overriding 
+             and we also inherit parent constrcutor int derived constructor
+*/
+
+
 /*function overiding
 suppose 2 cars both have same type of gear system(like mannual)
 but if advanced car inheriting from basicar will make automatic gear system then that gear function

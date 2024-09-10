@@ -39,6 +39,6 @@ int main()
     delete p;
     //now destructor of demo will be called bcs compiler will assume that object is of 
     //demo class as demo class pointer is used so to call destuctor of derived and to 
-    //make program work normally then demo destructor of demo is made virtual 
+    //make program work normally then destructor of demo is made virtual 
     //abstract class must have virtual destructor
 }

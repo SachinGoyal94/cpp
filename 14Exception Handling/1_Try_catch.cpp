@@ -32,7 +32,7 @@ int main()
 
 
 /* method 2
-also we can throw any datat type like string float double just modify catch(int)=>catch(datatype used)
+also we can throw any data type like string float double just modify catch(int)=>catch(datatype used)
 int division(int x,int y)
     {
         if(y==0)

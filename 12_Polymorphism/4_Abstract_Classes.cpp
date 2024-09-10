@@ -9,7 +9,7 @@ class which has atleast 1 pure virtual function is called Abstract Class
 */
 
 /* in Abstract class you can use base class pointer derived Base *b=new Derived()not Base b i.e. object for that 
-class cannot be created 
+class cannot be created as object will not be able to point derived function
 if a class is inheriting from abstract class then it also become abstract until unless 
 it override function then it will be concrete (if no virtual function present in class which is inheriting)
 */

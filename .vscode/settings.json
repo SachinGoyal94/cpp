@@ -42,7 +42,8 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "climits": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

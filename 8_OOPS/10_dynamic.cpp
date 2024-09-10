@@ -4,6 +4,30 @@ class Rectangle
 {
     public:
     string name;
+    int rollno;
+    Rectangle(string n,int r)
+    {
+        name=n;
+        rollno=r;   
+    }
+    ~Rectangle(){};
+};
+int main()
+{
+    Rectangle *p=new Rectangle("sachin",10);//"new"creates a new Rectangle object on the heap, initializes it with the name "sachin" and 
+                                            //roll number 10, and stores memory address of object in pointer variable p
+    cout<<p->name<<endl;
+    cout<<(p->rollno)<<endl;
+    delete p;
+}
+
+
+
+/*
+class Rectangle
+{
+    public:
+    string name;
     int *rollno;
     Rectangle(string n,int r)
     {
@@ -23,6 +47,10 @@ int main()
     cout<<*(p->rollno)<<endl;
     delete p;
 }
+*/
+
+
+
 // #include<bits/stdc++.h>
 // using namespace std;
 

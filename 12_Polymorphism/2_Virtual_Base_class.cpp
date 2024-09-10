@@ -1,3 +1,4 @@
+//as we override in poly. so using base class ptr der. we can get output of overrided function
 #include<bits/stdc++.h>
 using namespace std;
 class BasicCar
