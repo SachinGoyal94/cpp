@@ -10,8 +10,8 @@ it will cause ambiguity as a=23 and a=55 for test but if we will declare child g
 these child grandchild  will not get implemented for test but a=10 as both inherit a=10 from parent
 
 
-so class b,c is made virtual
-virtual when base class doesnot need implementation but derived class requires */
+so class b,c are virtually inheriting class a
+virtual when base class does not need implementation but derived class requires */
 
 #include<bits/stdc++.h>
 
@@ -43,7 +43,8 @@ class GrandChild:virtual public Parent  //on removing virtual a=10 but a=55 also
 class Test: public Child,GrandChild
 {
 
-}; 
+};
+
 int main()
 {
     Test c;

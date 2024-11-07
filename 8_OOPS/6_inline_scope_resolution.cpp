@@ -46,7 +46,7 @@ class Rectangle
 
     int perimeter();
 
-    bool issquare();      //it check wheter the rectangle is square or not
+    bool issquare();      //it check whether the rectangle is square or not
 
     ~Rectangle();  //it is Deconstructor or a Destructor it is an implicit function 
                    //opposite of Constructor. It destroys the memory of the object assigned.

@@ -5,7 +5,6 @@
 using namespace std;
 class Demo
 {
-
     public:
     Demo()
     {
@@ -26,15 +25,12 @@ class Derived:public Demo
     }
     ~Derived()
     {
-        cout<<"constructor of Derived delted"<<endl;
+        cout<<"constructor of Derived deleted"<<endl;
     }
 };
 int main()
 {
     Derived d;//constructor of demo then derived both are called
-    cout<<"program is continuing"<<endl;
-    cout<<"still not ended"<<endl;
-    cout<<"last line end of program"<<endl;
     //now program is ended 
     //as object is created inside stack so destuctor will be called automatically
     //firstly destructor of derived and then of demo is called 

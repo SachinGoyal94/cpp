@@ -35,6 +35,7 @@ int main()
 
     Test *a= new Test (6,12);
     Test b=*a;
+    b.print();
     delete a;    
     b.print(); // no garbage value and it returns 12
 }

@@ -21,7 +21,7 @@ class Rectangle
         setbreadth(b);
     }
     Rectangle(const Rectangle &r)               //copy constructor
-    {                                           //const means i am making orginal obeject constant
+    {                                           //const means i am making orginal object constant
         cout<<"copy constructor"<<endl;                            //here so this copy constructor will not change it 
                                                 //Rectangle(Rectangle &r works in the same way)
         this->lenght=r.lenght;                  // both this->length and length=r.length are same     

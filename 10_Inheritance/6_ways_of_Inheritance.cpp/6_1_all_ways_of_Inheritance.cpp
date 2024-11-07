@@ -39,7 +39,7 @@ class Child:private Parent
 here public protected of parent become private of child 
 
 class grandchild:public Child
-and here as everything of parent is private in  child so no parent members  will not be here inheirted
+and here public of child become public of grandchild and protected of child become  protected of grandchild
 
 
 }

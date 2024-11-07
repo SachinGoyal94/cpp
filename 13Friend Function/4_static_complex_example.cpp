@@ -1,4 +1,4 @@
-/* now let thapar fees increase every year by 1 lakh 
+ /* now let thapar fees increase every year by 1 lakh 
 */
 
 #include<bits/stdc++.h>

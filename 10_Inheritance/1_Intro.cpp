@@ -4,10 +4,7 @@ like here class child:public Parent     here every function under public of pare
 child  */
 
 
-#include <iostream>
-#include <cmath>
-#include <cstring>
-#include <climits>
+#include<bits/stdc++.h>
 using namespace std;
 class Parent
 {

@@ -53,6 +53,8 @@ int main()
     q.start();
     
     cout<<"just one more example"<<endl;
+    AdvanceCar m;
+    m.start();
 
 
     ADVANCECAR r;

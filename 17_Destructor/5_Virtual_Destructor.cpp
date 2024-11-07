@@ -16,7 +16,7 @@ class Demo
         
         cout<<"constructor created"<<endl;
     }
-    virtual ~Demo()
+    virtual ~Demo()  //if not virtual destructor of derived will not be called 
     {
         cout<<"constructor deleted"<<endl;
     }

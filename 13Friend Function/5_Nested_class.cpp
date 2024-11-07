@@ -17,7 +17,15 @@ class Base
    class Test
    {
       public:
+      
       int b=20+a;
+      
+      Test()
+      {
+         a+=12;
+      }
+      
+      int d=20+a;
    };
    Test i;
 };
@@ -25,5 +33,7 @@ int Base::a=9;
 int main()
 {
    Base::Test t; //for creating object of inner class inside main use scope resolution
-   cout<<t.b;
+   cout<<Base::a<<"   "<<t.b<<"    "<<t.d<<endl;
+   Base::Test c;
+   cout<<c.b;
 }

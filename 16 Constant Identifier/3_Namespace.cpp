@@ -24,7 +24,7 @@ int main()
 {
     First::fun();
     Second::fun();
-    std::cout<<"If not using using namespace std you have to use this std:cout<<";
+    std::cout<<"If not using using namespace std; you have to use this std:cout<<";
 }
 
 
@@ -51,7 +51,7 @@ int main()
 {
     Second::fun();   //output is second    
     fun();        //output is first 
-    std::cout<<"If not using using namespace std you have to use this std:cout<<";
+    std::cout<<"If not using using namespace std; you have to use this std:cout<<";
 }
 
 */

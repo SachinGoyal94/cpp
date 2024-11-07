@@ -24,9 +24,9 @@ class Child:private Parent
     public:
     void funChild()
     {
-        //a=5;     //private not accesible inside derived class
-        b=6;       //here it is becoming private not private already so accesible also
-        c=10;      //here it is becoming private not private already so accesible also
+        //a=5;     //private of parent not accesible inside derived class
+        b=6;       //here it is becoming private not private of parent so accesible 
+        c=10;      //here it is becoming private not private of parent so accesible
     }
 };
 class Grandchild:public Child
@@ -35,8 +35,8 @@ class Grandchild:public Child
     void funGrand()
     {
         //a=10;  //private not accesible inside derived class
-        //b=7;   //here it has become private so not accesible
-        //c=8;   ////here it has become private so not accesible
+        //b=7;   //here b is private of child so not accesible
+        //c=8;   ////here c is private of child so not accesible
     }
 };
 int main()

@@ -9,7 +9,7 @@ class sample
     public:
     sample(int A,int B,int C=0):a(A),b(B),c(C)
     {
-        cout<<"old constructor styke will not give c=C as it is constant but here by initialising list 'c' can be modified";
+        cout<<"old constructor style will not give c=C as it is constant but here by initialising list 'c' can be modified";
     }
     int geta() const
     {

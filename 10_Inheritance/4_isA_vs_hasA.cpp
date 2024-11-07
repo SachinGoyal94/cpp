@@ -1,9 +1,6 @@
 //  isA   vs   has A
 
-#include <iostream>
-#include <cmath>
-#include <cstring>
-#include <climits>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Parent

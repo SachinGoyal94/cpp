@@ -37,6 +37,7 @@ int main()
 
     Test *a= new Test (6,12);
     Test b=*a;
+    b.print();
     delete a;    //here we deleted obejct a both x and pointer p gets delete
     b.print();   //but here we are printing b and here as same address of pointers so garbage value and random address 
                  //of pointer is returned so use deep copy constructor

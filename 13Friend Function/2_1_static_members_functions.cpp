@@ -23,10 +23,17 @@ class Test
 
 int Test::count=0;
 
+class testy : public Test
+{};
+
 int main()
 {
     Test t1;
     cout<<t1.getcount()<<endl;
+
+    testy tt;
+    cout<<tt.getcount()<<endl;
+
     Test t2;
     cout<<t2.getcount();
     

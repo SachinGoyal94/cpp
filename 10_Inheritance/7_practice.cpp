@@ -55,7 +55,7 @@ int main()
     
     cout<<"Name of Employee is  "<<e1.getname()<<endl;
 
-    cout<<"Employee id is  "<<e1.getE_id<<endl;
+    cout<<"Employee id is  "<<e1.getE_id()<<endl;
 
     cout<<"Salary of Employee is "<<e1.getsalary()<<endl<<endl<<endl;
 
