@@ -4,6 +4,13 @@ we make it only accesible for a particular class
 and these static data members can be accessed using scope resoltuion if they are public
 */
 
+/*
+static data member
+● It is initialized to zero when the first object of its class is created. No other initialization is permitted. 
+it's by default but we can assign any random value to static data member
+● Only one copy of that member is created for the entire class and is shared by all the objects of that class, no matter how many objects are created.
+● It is visible only within the class, but its lifetime is the entire program
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

@@ -1,8 +1,4 @@
-
-#include<iostream>
-#include<cstring>
-#include<climits>
-#include<cmath>
+#include<bits/stdc++.h>
 using namespace std;
 int division(int x,int y)throw(int)   //throw int just signify that this function is used for 
 {                                     //throwing ,if not throwing anything just type throw() 

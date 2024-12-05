@@ -1,8 +1,5 @@
 //we can throw object or constructor of a class
-#include<iostream>
-#include<cstring>
-#include<climits>
-#include<cmath>
+#include<bits/stdc++.h>
 using namespace std;
 class MyException:exception //exception is inbuilt class we may use it or may not use it no effect
 {};

@@ -8,5 +8,7 @@ int main()
     int x=10;
     int const *ptr=&x;    //now pointer can't modify x
     //++(*ptr);  will give error
+    cout<<*ptr<<endl;
+    ++x;
     cout<<*ptr;
 }

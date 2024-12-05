@@ -24,4 +24,6 @@ void fun()
 int main()
 {
     fun();
+    Demo *q;  //corrected one is Demo *q=new Demo();
+    delete q;
 }

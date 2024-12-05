@@ -16,9 +16,9 @@
 
 //now in big program we may define same thing more than one time which will cause error 
 //so for that 
-#ifndef PI
-#define PI 3
-#endif
+#ifndef PI     //if P not defined
+#define PI 3   //p=3
+#endif         //end
 
 #ifndef G
 #define G 9

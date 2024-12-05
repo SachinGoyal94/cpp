@@ -1,7 +1,7 @@
 /*
 Polymorphism we redifne the functions according to our need 
 Inheritance  we inherit functions from parent class into derived without overriding 
-             and we also inherit parent constrcutor int derived constructor
+             and we also inherit parent constrcutor into derived constructor
 */
 
 
@@ -52,7 +52,6 @@ int main()
     BasicCar q;
     q.start();
     
-    cout<<"just one more example"<<endl;
     AdvanceCar m;
     m.start();
 

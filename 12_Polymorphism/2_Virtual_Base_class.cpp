@@ -40,5 +40,5 @@ int main()
 
 //for Base class pointer derived 
 /* 
-    base class can use functions of derived class also by using virtual and using pointer to derived class
+    base class can use functions of derived class also by using virtual and using pointer to derived class both together
 */

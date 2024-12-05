@@ -9,7 +9,6 @@ but they are declaring it as a=23 a=55 so when test will inherit from child gran
 it will cause ambiguity as a=23 and a=55 for test but if we will declare child grandchild as virutal
 these child grandchild  will not get implemented for test but a=10 as both inherit a=10 from parent
 
-
 so class b,c are virtually inheriting class a
 virtual when base class does not need implementation but derived class requires */
 

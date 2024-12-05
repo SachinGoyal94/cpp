@@ -1,6 +1,6 @@
 
 /* now in exception we can throw any datatype and can create  different catches for them and if 
-some are unknown datattype  we can use catch(...) but it must be used at last of all catch function
+some are unknown datatype  we can use catch(...) but it must be used at last of all catch function
 but we should not use catch as it will not tell which datatype we are throwing
 */
 #include<iostream>

@@ -1,6 +1,3 @@
-//now destructor of demo will be called bcs compiler will assume that object is of demo class 
-//as demo class pointer is used so to call destructor of derived then demo we will make
-//destructor of demo virtual
 //we are doing this achieve run time polymorphism
 #include<iostream>
 #include<cstring>

@@ -1,10 +1,7 @@
 //Notebook
 //void fun() throw will not throw anything
 //Exceptons are raised by program 
-#include<iostream>
-#include<cstring>
-#include<climits>
-#include<cmath>
+#include<bits/stdc++.h>
 using namespace std;
 int main()
 {

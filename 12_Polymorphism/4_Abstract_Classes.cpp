@@ -27,6 +27,7 @@ class Parent
     //pure virtual function , it is assigned zero because if only typed it will get scope resoltuion as 
     //virtual void fun2(); 
     //so assigned zero
+    virtual ~Parent(){};  //Abstract class must have virtual destructor
 };
 
 class Child:public Parent
@@ -36,6 +37,10 @@ class Child:public Parent
     {
         cout<<"function overrided now";   //concrete class
     }
+    ~Child()
+    {
+        cout<<endl<<"child derived";
+    }
 };
 int main()
 {
@@ -43,5 +48,6 @@ int main()
     p=new Child();
     p->fun2();
     // Parent z; see it's giving error 
+    delete p;
     return 0;
-}
+} 
