@@ -21,7 +21,8 @@ class Array
 };
 int main()
 {
-    int p[]={1,2},i=2;
+    int p[]={15,2},i=2;
     Array a(p,i);
     a[8]=7; 
+    cout<<a[8];
 }

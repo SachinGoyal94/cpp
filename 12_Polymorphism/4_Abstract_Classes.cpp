@@ -27,7 +27,10 @@ class Parent
     //pure virtual function , it is assigned zero because if only typed it will get scope resoltuion as 
     //virtual void fun2(); 
     //so assigned zero
-    virtual ~Parent(){};  //Abstract class must have virtual destructor
+    virtual ~Parent()  //Abstract class must have virtual destructor
+    {
+        cout<<"Parent destructor called";
+    }
 };
 
 class Child:public Parent
